@@ -1,0 +1,2389 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0912.1023                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='e5a44bff455963e9c497936a431a6cc2d8e9ed2f2ea278fd95367dc2ea9ddcd4' _.fcp.WorkbookFingerprinting.true...creator-author-id='e5a44bff455963e9c497936a431a6cc2d8e9ed2f2ea278fd95367dc2ea9ddcd4' _.fcp.WorkbookFingerprinting.true...creator-license-type='free' _.fcp.WorkbookFingerprinting.true...creator-machine-id='f67f22bd17cfa722b82dcc439de8589fa6892e5270e9b7119d0f1693d825b039' _.fcp.WorkbookFingerprinting.true...license-type='free' _.fcp.WorkbookFingerprinting.true...machine-id='f67f22bd17cfa722b82dcc439de8589fa6892e5270e9b7119d0f1693d825b039' original-version='18.1' source-build='2026.2.3 (20262.26.0912.1023)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Data Professional Survey (Data Professional Survey - Power BI)' inline='true' name='federated.09vcrzj1xijcaw0zkc6ep0318y0w' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Data Professional Survey - Power BI' name='excel-direct.0fdry5a0nzltgq12aep8k0srlh2k'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Keum/AppData/Local/Temp/TableauTemp/499382038/Data/Downloads/Data Professional Survey - Power BI.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0fdry5a0nzltgq12aep8k0srlh2k' name='Data Professional Survey' table='[&apos;Data Professional Survey$&apos;]' type='table'>
+          <columns gridOrigin='A1:AB631:no:A1:AB631:0' header='yes' outcome='6'>
+            <column datatype='string' name='Unique ID' ordinal='0' />
+            <column datatype='string' name='Email' ordinal='1' />
+            <column datatype='string' name='Date Taken (America/New_York)' ordinal='2' />
+            <column datatype='string' name='Time Taken (America/New_York)' ordinal='3' />
+            <column datatype='string' name='Browser' ordinal='4' />
+            <column datatype='string' name='OS' ordinal='5' />
+            <column datatype='string' name='City' ordinal='6' />
+            <column datatype='string' name='Country' ordinal='7' />
+            <column datatype='string' name='Referrer' ordinal='8' />
+            <column datatype='string' name='Time Spent' ordinal='9' />
+            <column datatype='string' name='Q1 - Which Title Best Fits your Current Role?' ordinal='10' />
+            <column datatype='string' name='Q2 - Did you switch careers into Data?' ordinal='11' />
+            <column datatype='string' name='Q3 - Current Yearly Salary (in USD)' ordinal='12' />
+            <column datatype='string' name='Q4 - What Industry do you work in?' ordinal='13' />
+            <column datatype='string' name='Q5 - Favorite Programming Language' ordinal='14' />
+            <column datatype='integer' name='Q6 - How Happy are you in your Current Position with the following? (Salary)' ordinal='15' />
+            <column datatype='integer' name='Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)' ordinal='16' />
+            <column datatype='integer' name='Q6 - How Happy are you in your Current Position with the following? (Coworkers)' ordinal='17' />
+            <column datatype='integer' name='Q6 - How Happy are you in your Current Position with the following? (Management)' ordinal='18' />
+            <column datatype='integer' name='Q6 - How Happy are you in your Current Position with the following? (Upward Mobility)' ordinal='19' />
+            <column datatype='integer' name='Q6 - How Happy are you in your Current Position with the following? (Learning New Things)' ordinal='20' />
+            <column datatype='string' name='Q7 - How difficult was it for you to break into Data?' ordinal='21' />
+            <column datatype='string' name='Q8 - If you were to look for a new job today, what would be the most important thing to you?' ordinal='22' />
+            <column datatype='string' name='Q9 - Male/Female?' ordinal='23' />
+            <column datatype='integer' name='Q10 - Current Age' ordinal='24' />
+            <column datatype='string' name='Q11 - Which Country do you live in?' ordinal='25' />
+            <column datatype='string' name='Q12 - Highest Level of Education' ordinal='26' />
+            <column datatype='string' name='Q13 - Ethnicity' ordinal='27' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AB631:no:A1:AB631:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unique ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Unique ID]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Unique ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Email</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Email]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Email</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date Taken (America/New_York)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Date Taken (America/New_York)]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Date Taken (America/New_York)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time Taken (America/New_York)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Time Taken (America/New_York)]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Time Taken (America/New_York)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Browser</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Browser]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Browser</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OS</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[OS]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>OS</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Referrer</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Referrer]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Referrer</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time Spent</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Time Spent]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Time Spent</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q1 - Which Title Best Fits your Current Role?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Q1 - Which Title Best Fits your Current Role?]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Q1 - Which Title Best Fits your Current Role?</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q2 - Did you switch careers into Data?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Q2 - Did you switch careers into Data?]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Q2 - Did you switch careers into Data?</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q3 - Current Yearly Salary (in USD)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Q3 - Current Yearly Salary (in USD)]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Q3 - Current Yearly Salary (in USD)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q4 - What Industry do you work in?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Q4 - What Industry do you work in?]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Q4 - What Industry do you work in?</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q5 - Favorite Programming Language</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Q5 - Favorite Programming Language]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Q5 - Favorite Programming Language</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q6 - How Happy are you in your Current Position with the following? (Salary)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Q6 - How Happy are you in your Current Position with the following? (Salary)]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Q6 - How Happy are you in your Current Position with the following? (Salary)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q6 - How Happy are you in your Current Position with the following? (Coworkers)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Q6 - How Happy are you in your Current Position with the following? (Coworkers)]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Q6 - How Happy are you in your Current Position with the following? (Coworkers)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q6 - How Happy are you in your Current Position with the following? (Management)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Q6 - How Happy are you in your Current Position with the following? (Management)]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Q6 - How Happy are you in your Current Position with the following? (Management)</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q6 - How Happy are you in your Current Position with the following? (Upward Mobility)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Q6 - How Happy are you in your Current Position with the following? (Upward Mobility)]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Q6 - How Happy are you in your Current Position with the following? (Upward Mobility)</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q6 - How Happy are you in your Current Position with the following? (Learning New Things)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Q6 - How Happy are you in your Current Position with the following? (Learning New Things)]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Q6 - How Happy are you in your Current Position with the following? (Learning New Things)</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q7 - How difficult was it for you to break into Data?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Q7 - How difficult was it for you to break into Data?]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Q7 - How difficult was it for you to break into Data?</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q8 - If you were to look for a new job today, what would be the most important thing to you?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Q8 - If you were to look for a new job today, what would be the most important thing to you?]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Q8 - If you were to look for a new job today, what would be the most important thing to you?</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q9 - Male/Female?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Q9 - Male/Female?]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Q9 - Male/Female?</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q10 - Current Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Q10 - Current Age]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Q10 - Current Age</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q11 - Which Country do you live in?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Q11 - Which Country do you live in?]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Q11 - Which Country do you live in?</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q12 - Highest Level of Education</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Q12 - Highest Level of Education]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Q12 - Highest Level of Education</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q13 - Ethnicity</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Q13 - Ethnicity]</local-name>
+            <parent-name>[Data Professional Survey]</parent-name>
+            <remote-alias>Q13 - Ethnicity</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='z_HappinessIndex' datatype='real' name='[Calculation_2044869717110784]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='//computes for 3 happiness questions - learnings, upward mobility, and management &#13;&#10;([Q6 - How Happy are you in your Current Position with the following? (Management)]+[Q6 - How Happy are you in your Current Position with the following? (Upward Mobility)]+[Q6 - How Happy are you in your Current Position with the following? (Learning New Things)])/3' />
+      </column>
+      <column caption='z_Age_Group' datatype='string' name='[Calculation_2688084250394624]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='//Computes per age group&#13;&#10;//&lt; 25, then Young &#13;&#10;//&lt;= 35 then Early CAreer &#13;&#10;//&lt;=50, then Mid Career &#13;&#10;// &gt;50, Senior&#13;&#10;&#13;&#10;&#13;&#10;IF [Q10 - Current Age] &lt; 25 THEN &apos;Young&apos;&#13;&#10;ELSEIF [Q10 - Current Age]&lt;= 35 THEN &apos;Early Career&apos;&#13;&#10;ELSEIF [Q10 - Current Age] &lt;=50 THEN &apos;Mid Career&apos;&#13;&#10;ELSE &apos;Senior&apos;&#13;&#10;END' />
+      </column>
+      <column caption='z_country2' datatype='string' name='[Calculation_2688084275900419]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
+        <calculation class='tableau' formula='//replace &apos;other please specify&apos; value in the Q11 column&#13;&#10;&#13;&#10;REPLACE( [Q11 - Which Country do you live in?],&quot;Other (Please Specify):&quot;, &quot;&quot;)' />
+      </column>
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Date Taken (America/New York)' datatype='string' name='[Date Taken (America/New_York)]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Q11 - Which Country do you live in?]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Q9 - Male/Female?]' role='dimension' type='nominal' />
+      <column caption='Time Taken (America/New York)' datatype='string' name='[Time Taken (America/New_York)]' role='dimension' type='nominal' />
+      <column caption='Data Professional Survey' datatype='table' name='[__tableau_internal_object_id__].[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]' role='measure' type='quantitative' />
+      <column-instance column='[Q9 - Male/Female?]' derivation='None' name='[none:Q9 - Male/Female?:nk]' pivot='key' type='nominal' />
+      <group caption='Action (Q9 - Male/Female?)' hidden='true' name='[Action (Q9 - Male/Female?)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Q9 - Male/Female?]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (z_Age_Group)' hidden='true' name='[Action (z_Age_Group)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Calculation_2688084250394624]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (z_country2)' hidden='true' name='[Action (z_country2)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Calculation_2688084275900419]' />
+        </groupfilter>
+      </group>
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='Data/Riman, Keum Jeng Sprint 4 Day 3 (Dashboard).twb Files/Data Professional Survey (Data Professional Survey - Power BI).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='10/20/2026 03:18:44 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='Data Professional Survey (Data Professional Survey - Power BI)' increment-value='%null%' refresh-type='create' rows-inserted='630' timestamp-start='2026-10-20 03:18:43.904' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Unique ID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Unique ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unique ID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>630</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Email</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Email]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Email</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Date Taken (America/New_York)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Date Taken (America/New_York)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date Taken (America/New_York)</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Time Taken (America/New_York)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Time Taken (America/New_York)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Time Taken (America/New_York)</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>453</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Browser</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Browser]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Browser</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OS</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[OS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OS</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>City</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[City]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>City</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Referrer</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Referrer]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Referrer</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Time Spent</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Time Spent]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Time Spent</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>203</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Q1 - Which Title Best Fits your Current Role?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Q1 - Which Title Best Fits your Current Role?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Q1 - Which Title Best Fits your Current Role?</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>82</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Q2 - Did you switch careers into Data?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Q2 - Did you switch careers into Data?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Q2 - Did you switch careers into Data?</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Q3 - Current Yearly Salary (in USD)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Q3 - Current Yearly Salary (in USD)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Q3 - Current Yearly Salary (in USD)</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Q4 - What Industry do you work in?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Q4 - What Industry do you work in?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Q4 - What Industry do you work in?</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>137</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Q5 - Favorite Programming Language</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Q5 - Favorite Programming Language]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Q5 - Favorite Programming Language</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>42</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Q6 - How Happy are you in your Current Position with the following? (Salary)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Q6 - How Happy are you in your Current Position with the following? (Salary)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Q6 - How Happy are you in your Current Position with the following? (Salary)</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Q6 - How Happy are you in your Current Position with the following? (Coworkers)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Q6 - How Happy are you in your Current Position with the following? (Coworkers)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Q6 - How Happy are you in your Current Position with the following? (Coworkers)</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Q6 - How Happy are you in your Current Position with the following? (Management)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Q6 - How Happy are you in your Current Position with the following? (Management)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Q6 - How Happy are you in your Current Position with the following? (Management)</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Q6 - How Happy are you in your Current Position with the following? (Upward Mobility)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Q6 - How Happy are you in your Current Position with the following? (Upward Mobility)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Q6 - How Happy are you in your Current Position with the following? (Upward Mobility)</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Q6 - How Happy are you in your Current Position with the following? (Learning New Things)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Q6 - How Happy are you in your Current Position with the following? (Learning New Things)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Q6 - How Happy are you in your Current Position with the following? (Learning New Things)</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Q7 - How difficult was it for you to break into Data?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Q7 - How difficult was it for you to break into Data?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Q7 - How difficult was it for you to break into Data?</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Q8 - If you were to look for a new job today, what would be the most important thing to you?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Q8 - If you were to look for a new job today, what would be the most important thing to you?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Q8 - If you were to look for a new job today, what would be the most important thing to you?</remote-alias>
+              <ordinal>22</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>39</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Q9 - Male/Female?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Q9 - Male/Female?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Q9 - Male/Female?</remote-alias>
+              <ordinal>23</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Q10 - Current Age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Q10 - Current Age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Q10 - Current Age</remote-alias>
+              <ordinal>24</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>41</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Q11 - Which Country do you live in?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Q11 - Which Country do you live in?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Q11 - Which Country do you live in?</remote-alias>
+              <ordinal>25</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>89</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Q12 - Highest Level of Education</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Q12 - Highest Level of Education]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Q12 - Highest Level of Education</remote-alias>
+              <ordinal>26</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Q13 - Ethnicity</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Q13 - Ethnicity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Q13 - Ethnicity</remote-alias>
+              <ordinal>27</ordinal>
+              <family>Data Professional Survey</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>42</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Q9 - Male/Female?:nk]' type='palette'>
+            <map to='#1170aa'>
+              <bucket>&quot;Male&quot;</bucket>
+            </map>
+            <map to='#a3cce9'>
+              <bucket>&quot;Female&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Philippines&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Unique ID' />
+        <field-sort-custom-order field='Email' />
+        <field-sort-custom-order field='Date Taken (America/New_York)' />
+        <field-sort-custom-order field='Time Taken (America/New_York)' />
+        <field-sort-custom-order field='Browser' />
+        <field-sort-custom-order field='OS' />
+        <field-sort-custom-order field='City' />
+        <field-sort-custom-order field='Country' />
+        <field-sort-custom-order field='Referrer' />
+        <field-sort-custom-order field='Time Spent' />
+        <field-sort-custom-order field='Q1 - Which Title Best Fits your Current Role?' />
+        <field-sort-custom-order field='Q2 - Did you switch careers into Data?' />
+        <field-sort-custom-order field='Q3 - Current Yearly Salary (in USD)' />
+        <field-sort-custom-order field='Q4 - What Industry do you work in?' />
+        <field-sort-custom-order field='Q5 - Favorite Programming Language' />
+        <field-sort-custom-order field='Q6 - How Happy are you in your Current Position with the following? (Salary)' />
+        <field-sort-custom-order field='Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)' />
+        <field-sort-custom-order field='Q6 - How Happy are you in your Current Position with the following? (Coworkers)' />
+        <field-sort-custom-order field='Q6 - How Happy are you in your Current Position with the following? (Management)' />
+        <field-sort-custom-order field='Q6 - How Happy are you in your Current Position with the following? (Upward Mobility)' />
+        <field-sort-custom-order field='Q6 - How Happy are you in your Current Position with the following? (Learning New Things)' />
+        <field-sort-custom-order field='Q7 - How difficult was it for you to break into Data?' />
+        <field-sort-custom-order field='Q8 - If you were to look for a new job today, what would be the most important thing to you?' />
+        <field-sort-custom-order field='Q9 - Male/Female?' />
+        <field-sort-custom-order field='Q10 - Current Age' />
+        <field-sort-custom-order field='Calculation_2688084250394624' />
+        <field-sort-custom-order field='Q11 - Which Country do you live in?' />
+        <field-sort-custom-order field='Calculation_2688084275900419' />
+        <field-sort-custom-order field='Calculation_2688084278206468' />
+        <field-sort-custom-order field='Q12 - Highest Level of Education' />
+        <field-sort-custom-order field='Q13 - Ethnicity' />
+        <field-sort-custom-order field='Calculation_2044869717110784' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <object-graph>
+        <objects>
+          <object caption='Data Professional Survey' id='Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE'>
+            <properties context=''>
+              <relation connection='excel-direct.0fdry5a0nzltgq12aep8k0srlh2k' name='Data Professional Survey' table='[&apos;Data Professional Survey$&apos;]' type='table'>
+                <columns gridOrigin='A1:AB631:no:A1:AB631:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Unique ID' ordinal='0' />
+                  <column datatype='string' name='Email' ordinal='1' />
+                  <column datatype='string' name='Date Taken (America/New_York)' ordinal='2' />
+                  <column datatype='string' name='Time Taken (America/New_York)' ordinal='3' />
+                  <column datatype='string' name='Browser' ordinal='4' />
+                  <column datatype='string' name='OS' ordinal='5' />
+                  <column datatype='string' name='City' ordinal='6' />
+                  <column datatype='string' name='Country' ordinal='7' />
+                  <column datatype='string' name='Referrer' ordinal='8' />
+                  <column datatype='string' name='Time Spent' ordinal='9' />
+                  <column datatype='string' name='Q1 - Which Title Best Fits your Current Role?' ordinal='10' />
+                  <column datatype='string' name='Q2 - Did you switch careers into Data?' ordinal='11' />
+                  <column datatype='string' name='Q3 - Current Yearly Salary (in USD)' ordinal='12' />
+                  <column datatype='string' name='Q4 - What Industry do you work in?' ordinal='13' />
+                  <column datatype='string' name='Q5 - Favorite Programming Language' ordinal='14' />
+                  <column datatype='integer' name='Q6 - How Happy are you in your Current Position with the following? (Salary)' ordinal='15' />
+                  <column datatype='integer' name='Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)' ordinal='16' />
+                  <column datatype='integer' name='Q6 - How Happy are you in your Current Position with the following? (Coworkers)' ordinal='17' />
+                  <column datatype='integer' name='Q6 - How Happy are you in your Current Position with the following? (Management)' ordinal='18' />
+                  <column datatype='integer' name='Q6 - How Happy are you in your Current Position with the following? (Upward Mobility)' ordinal='19' />
+                  <column datatype='integer' name='Q6 - How Happy are you in your Current Position with the following? (Learning New Things)' ordinal='20' />
+                  <column datatype='string' name='Q7 - How difficult was it for you to break into Data?' ordinal='21' />
+                  <column datatype='string' name='Q8 - If you were to look for a new job today, what would be the most important thing to you?' ordinal='22' />
+                  <column datatype='string' name='Q9 - Male/Female?' ordinal='23' />
+                  <column datatype='integer' name='Q10 - Current Age' ordinal='24' />
+                  <column datatype='string' name='Q11 - Which Country do you live in?' ordinal='25' />
+                  <column datatype='string' name='Q12 - Highest Level of Education' ordinal='26' />
+                  <column datatype='string' name='Q13 - Ethnicity' ordinal='27' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_B9D7D0DCE96E48C6870A7558CA4B868C]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard Demo' type='sheet' worksheet='Total Number of Respondents ' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard Demo' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2_B05860AFCBEF47809D47544EB29338F0]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard Demo' type='sheet' worksheet='Average Age of Respondents' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard Demo' />
+      </command>
+    </action>
+    <action caption='Filter 3 (generated)' name='[Action3_E7D4994D3D9E4A27A44C9E64EA272ADF]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard Demo' type='sheet' worksheet='Happiness Index' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard Demo' />
+      </command>
+    </action>
+    <action caption='Filter 4 (generated)' name='[Action4_8639BAE5D8884BECAC1DF82B4B616260]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard Demo' type='sheet' worksheet='Gender' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard Demo' />
+      </command>
+    </action>
+    <action caption='Filter 5 (generated)' name='[Action5_7CBEE21DBC5846E98E1BDCA9B8286E6B]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard Demo' type='sheet' worksheet='Age Group' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard Demo' />
+      </command>
+    </action>
+    <action caption='Filter 6 (generated)' name='[Action6_3985EB8D57174476AF7D806F4D28855D]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard Demo' type='sheet' worksheet='Country' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard Demo' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Age Group'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Age Group</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data Professional Survey (Data Professional Survey - Power BI)' name='federated.09vcrzj1xijcaw0zkc6ep0318y0w' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09vcrzj1xijcaw0zkc6ep0318y0w'>
+            <column caption='z_HappinessIndex' datatype='real' name='[Calculation_2044869717110784]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='//computes for 3 happiness questions - learnings, upward mobility, and management &#13;&#10;([Q6 - How Happy are you in your Current Position with the following? (Management)]+[Q6 - How Happy are you in your Current Position with the following? (Upward Mobility)]+[Q6 - How Happy are you in your Current Position with the following? (Learning New Things)])/3' />
+            </column>
+            <column caption='z_Age_Group' datatype='string' name='[Calculation_2688084250394624]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='//Computes per age group&#13;&#10;//&lt; 25, then Young &#13;&#10;//&lt;= 35 then Early CAreer &#13;&#10;//&lt;=50, then Mid Career &#13;&#10;// &gt;50, Senior&#13;&#10;&#13;&#10;&#13;&#10;IF [Q10 - Current Age] &lt; 25 THEN &apos;Young&apos;&#13;&#10;ELSEIF [Q10 - Current Age]&lt;= 35 THEN &apos;Early Career&apos;&#13;&#10;ELSEIF [Q10 - Current Age] &lt;=50 THEN &apos;Mid Career&apos;&#13;&#10;ELSE &apos;Senior&apos;&#13;&#10;END' />
+            </column>
+            <column caption='z_country2' datatype='string' name='[Calculation_2688084275900419]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
+              <calculation class='tableau' formula='//replace &apos;other please specify&apos; value in the Q11 column&#13;&#10;&#13;&#10;REPLACE( [Q11 - Which Country do you live in?],&quot;Other (Please Specify):&quot;, &quot;&quot;)' />
+            </column>
+            <column datatype='integer' name='[Q10 - Current Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Q11 - Which Country do you live in?]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='integer' name='[Q6 - How Happy are you in your Current Position with the following? (Learning New Things)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Q6 - How Happy are you in your Current Position with the following? (Management)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Q6 - How Happy are you in your Current Position with the following? (Upward Mobility)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Q9 - Male/Female?]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_2044869717110784]' derivation='Avg' name='[avg:Calculation_2044869717110784:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2688084250394624]' derivation='None' name='[none:Calculation_2688084250394624:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (Q9 - Male/Female?)]'>
+            <groupfilter function='level-members' level='[Q9 - Male/Female?]' user:ui-action-filter='[Action4_8639BAE5D8884BECAC1DF82B4B616260]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (z_country2)]'>
+            <groupfilter function='level-members' level='[Calculation_2688084275900419]' user:ui-action-filter='[Action6_3985EB8D57174476AF7D806F4D28855D]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084250394624:nk]' filter-group='3'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Calculation_2688084250394624:nk]' member='&quot;Early Career&quot;' />
+              <groupfilter function='member' level='[none:Calculation_2688084250394624:nk]' member='&quot;Senior&quot;' />
+              <groupfilter function='member' level='[none:Calculation_2688084250394624:nk]' member='&quot;Young&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084250394624:nk]</column>
+            <column>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (Q9 - Male/Female?)]</column>
+            <column>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (z_country2)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[avg:Calculation_2044869717110784:qk]' value='n#,##0.00;-#,##0.00' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[avg:Calculation_2044869717110784:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[avg:Calculation_2044869717110784:qk]' />
+              <text column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[avg:Calculation_2044869717110784:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084250394624:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{9C42119A-747A-4F8B-B9DB-144AF7B54991}' />
+    </worksheet>
+    <worksheet name='Average Age of Respondents'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Average Age&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data Professional Survey (Data Professional Survey - Power BI)' name='federated.09vcrzj1xijcaw0zkc6ep0318y0w' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09vcrzj1xijcaw0zkc6ep0318y0w'>
+            <column caption='z_Age_Group' datatype='string' name='[Calculation_2688084250394624]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='//Computes per age group&#13;&#10;//&lt; 25, then Young &#13;&#10;//&lt;= 35 then Early CAreer &#13;&#10;//&lt;=50, then Mid Career &#13;&#10;// &gt;50, Senior&#13;&#10;&#13;&#10;&#13;&#10;IF [Q10 - Current Age] &lt; 25 THEN &apos;Young&apos;&#13;&#10;ELSEIF [Q10 - Current Age]&lt;= 35 THEN &apos;Early Career&apos;&#13;&#10;ELSEIF [Q10 - Current Age] &lt;=50 THEN &apos;Mid Career&apos;&#13;&#10;ELSE &apos;Senior&apos;&#13;&#10;END' />
+            </column>
+            <column caption='z_country2' datatype='string' name='[Calculation_2688084275900419]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
+              <calculation class='tableau' formula='//replace &apos;other please specify&apos; value in the Q11 column&#13;&#10;&#13;&#10;REPLACE( [Q11 - Which Country do you live in?],&quot;Other (Please Specify):&quot;, &quot;&quot;)' />
+            </column>
+            <column datatype='integer' name='[Q10 - Current Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Q11 - Which Country do you live in?]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Q9 - Male/Female?]' role='dimension' type='nominal' />
+            <column-instance column='[Q10 - Current Age]' derivation='Avg' name='[avg:Q10 - Current Age:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2688084250394624]' derivation='None' name='[none:Calculation_2688084250394624:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (Q9 - Male/Female?)]'>
+            <groupfilter function='level-members' level='[Q9 - Male/Female?]' user:ui-action-filter='[Action4_8639BAE5D8884BECAC1DF82B4B616260]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (z_Age_Group)]'>
+            <groupfilter function='level-members' level='[Calculation_2688084250394624]' user:ui-action-filter='[Action5_7CBEE21DBC5846E98E1BDCA9B8286E6B]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (z_country2)]'>
+            <groupfilter function='level-members' level='[Calculation_2688084275900419]' user:ui-action-filter='[Action6_3985EB8D57174476AF7D806F4D28855D]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084250394624:nk]' filter-group='3'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Calculation_2688084250394624:nk]' member='&quot;Early Career&quot;' />
+              <groupfilter function='member' level='[none:Calculation_2688084250394624:nk]' member='&quot;Senior&quot;' />
+              <groupfilter function='member' level='[none:Calculation_2688084250394624:nk]' member='&quot;Young&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084250394624:nk]</column>
+            <column>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (Q9 - Male/Female?)]</column>
+            <column>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (z_Age_Group)]</column>
+            <column>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (z_country2)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[avg:Q10 - Current Age:qk]' value='n#,##0;-#,##0' />
+            <format attr='height' value='65' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[avg:Q10 - Current Age:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontname='Segoe UI' fontsize='18'><![CDATA[<[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[avg:Q10 - Current Age:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{413EDFEA-74D4-4FA3-AB1F-A8AFCDE199DA}' />
+    </worksheet>
+    <worksheet name='Country'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Map</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data Professional Survey (Data Professional Survey - Power BI)' name='federated.09vcrzj1xijcaw0zkc6ep0318y0w' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.09vcrzj1xijcaw0zkc6ep0318y0w'>
+            <column caption='z_HappinessIndex' datatype='real' name='[Calculation_2044869717110784]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='//computes for 3 happiness questions - learnings, upward mobility, and management &#13;&#10;([Q6 - How Happy are you in your Current Position with the following? (Management)]+[Q6 - How Happy are you in your Current Position with the following? (Upward Mobility)]+[Q6 - How Happy are you in your Current Position with the following? (Learning New Things)])/3' />
+            </column>
+            <column caption='z_Age_Group' datatype='string' name='[Calculation_2688084250394624]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='//Computes per age group&#13;&#10;//&lt; 25, then Young &#13;&#10;//&lt;= 35 then Early CAreer &#13;&#10;//&lt;=50, then Mid Career &#13;&#10;// &gt;50, Senior&#13;&#10;&#13;&#10;&#13;&#10;IF [Q10 - Current Age] &lt; 25 THEN &apos;Young&apos;&#13;&#10;ELSEIF [Q10 - Current Age]&lt;= 35 THEN &apos;Early Career&apos;&#13;&#10;ELSEIF [Q10 - Current Age] &lt;=50 THEN &apos;Mid Career&apos;&#13;&#10;ELSE &apos;Senior&apos;&#13;&#10;END' />
+            </column>
+            <column caption='z_country2' datatype='string' name='[Calculation_2688084275900419]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
+              <calculation class='tableau' formula='//replace &apos;other please specify&apos; value in the Q11 column&#13;&#10;&#13;&#10;REPLACE( [Q11 - Which Country do you live in?],&quot;Other (Please Specify):&quot;, &quot;&quot;)' />
+            </column>
+            <column datatype='integer' name='[Q10 - Current Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Q11 - Which Country do you live in?]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='integer' name='[Q6 - How Happy are you in your Current Position with the following? (Learning New Things)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Q6 - How Happy are you in your Current Position with the following? (Management)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Q6 - How Happy are you in your Current Position with the following? (Upward Mobility)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Q9 - Male/Female?]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_2044869717110784]' derivation='Avg' name='[avg:Calculation_2044869717110784:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2688084250394624]' derivation='None' name='[none:Calculation_2688084250394624:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2688084275900419]' derivation='None' name='[none:Calculation_2688084275900419:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (Q9 - Male/Female?)]'>
+            <groupfilter function='level-members' level='[Q9 - Male/Female?]' user:ui-action-filter='[Action4_8639BAE5D8884BECAC1DF82B4B616260]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (z_Age_Group)]'>
+            <groupfilter function='level-members' level='[Calculation_2688084250394624]' user:ui-action-filter='[Action5_7CBEE21DBC5846E98E1BDCA9B8286E6B]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Latitude (generated)]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Longitude (generated)]' included-values='non-null' />
+          <filter class='categorical' column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084250394624:nk]' filter-group='3'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Calculation_2688084250394624:nk]' member='&quot;Early Career&quot;' />
+              <groupfilter function='member' level='[none:Calculation_2688084250394624:nk]' member='&quot;Senior&quot;' />
+              <groupfilter function='member' level='[none:Calculation_2688084250394624:nk]' member='&quot;Young&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084275900419:nk]'>
+            <groupfilter function='level-members' level='[none:Calculation_2688084275900419:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Latitude (generated)]</column>
+            <column>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Longitude (generated)]</column>
+            <column>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084275900419:nk]</column>
+            <column>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084250394624:nk]</column>
+            <column>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (Q9 - Male/Female?)]</column>
+            <column>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (z_Age_Group)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Longitude (generated)]' field-type='quantitative' max='11883169.6280463' min='-17931750.808901571' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Latitude (generated)]' field-type='quantitative' max='9091906.6683950946' min='-8941311.9110839348' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[avg:Calculation_2044869717110784:qk]' num-steps='3' palette='blue_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084275900419:nk]' value='false' />
+            <format attr='break-on-special' field='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084275900419:nk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084275900419:nk]' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084275900419:nk]' value='Respondent&apos;s Country'>
+              <formatted-text>
+                <run fontname='Segoe UI' fontsize='12'>Respondent&apos;s Country</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084275900419:nk]' />
+              <color column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[avg:Calculation_2044869717110784:qk]' />
+              <geometry column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='5' />
+                <format attr='font-weight' value='normal' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Latitude (generated)]</rows>
+        <cols>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{44E79B78-A35F-4FD1-A0D0-4F99E6F60AF9}' />
+    </worksheet>
+    <worksheet name='Gender'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data Professional Survey (Data Professional Survey - Power BI)' name='federated.09vcrzj1xijcaw0zkc6ep0318y0w' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09vcrzj1xijcaw0zkc6ep0318y0w'>
+            <column caption='z_Age_Group' datatype='string' name='[Calculation_2688084250394624]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='//Computes per age group&#13;&#10;//&lt; 25, then Young &#13;&#10;//&lt;= 35 then Early CAreer &#13;&#10;//&lt;=50, then Mid Career &#13;&#10;// &gt;50, Senior&#13;&#10;&#13;&#10;&#13;&#10;IF [Q10 - Current Age] &lt; 25 THEN &apos;Young&apos;&#13;&#10;ELSEIF [Q10 - Current Age]&lt;= 35 THEN &apos;Early Career&apos;&#13;&#10;ELSEIF [Q10 - Current Age] &lt;=50 THEN &apos;Mid Career&apos;&#13;&#10;ELSE &apos;Senior&apos;&#13;&#10;END' />
+            </column>
+            <column caption='z_country2' datatype='string' name='[Calculation_2688084275900419]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
+              <calculation class='tableau' formula='//replace &apos;other please specify&apos; value in the Q11 column&#13;&#10;&#13;&#10;REPLACE( [Q11 - Which Country do you live in?],&quot;Other (Please Specify):&quot;, &quot;&quot;)' />
+            </column>
+            <column datatype='integer' name='[Q10 - Current Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Q11 - Which Country do you live in?]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Q9 - Male/Female?]' role='dimension' type='nominal' />
+            <column caption='Data Professional Survey' datatype='table' name='[__tableau_internal_object_id__].[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]' derivation='Count' name='[__tableau_internal_object_id__].[diff:cnt:Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE:qk]' pivot='key' type='quantitative'>
+              <table-calc diff-options='Relative' ordering-type='Rows' type='Difference'>
+                <address>
+                  <value>-1</value>
+                </address>
+              </table-calc>
+            </column-instance>
+            <column-instance column='[__tableau_internal_object_id__].[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]' derivation='Count' name='[__tableau_internal_object_id__].[pcto:cnt:Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Calculation_2688084250394624]' derivation='None' name='[none:Calculation_2688084250394624:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Q9 - Male/Female?]' derivation='None' name='[none:Q9 - Male/Female?:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (z_Age_Group)]'>
+            <groupfilter function='level-members' level='[Calculation_2688084250394624]' user:ui-action-filter='[Action5_7CBEE21DBC5846E98E1BDCA9B8286E6B]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (z_country2)]'>
+            <groupfilter function='level-members' level='[Calculation_2688084275900419]' user:ui-action-filter='[Action6_3985EB8D57174476AF7D806F4D28855D]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084250394624:nk]' filter-group='3'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Calculation_2688084250394624:nk]' member='&quot;Early Career&quot;' />
+              <groupfilter function='member' level='[none:Calculation_2688084250394624:nk]' member='&quot;Senior&quot;' />
+              <groupfilter function='member' level='[none:Calculation_2688084250394624:nk]' member='&quot;Young&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084250394624:nk]</column>
+            <column>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (z_Age_Group)]</column>
+            <column>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (z_country2)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-align' field='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[__tableau_internal_object_id__].[pcto:cnt:Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE:qk]' value='left' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' field='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Q9 - Male/Female?:nk]' value='left' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Q9 - Male/Female?:nk]' />
+              <wedge-size column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[__tableau_internal_object_id__].[pcto:cnt:Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE:qk]' />
+              <size column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[__tableau_internal_object_id__].[diff:cnt:Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE:qk]' />
+              <text column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Q9 - Male/Female?:nk]' />
+              <text column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[__tableau_internal_object_id__].[pcto:cnt:Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontsize='8'><![CDATA[<[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Q9 - Male/Female?:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontsize='8'><![CDATA[<[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[__tableau_internal_object_id__].[pcto:cnt:Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='1.2853591442108154' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <mark-labels>
+          <mark-label id='0'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Q9 - Male/Female?:nk]</field>
+                  <field>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[__tableau_internal_object_id__].[diff:cnt:Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE:qk]</field>
+                  <field>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[__tableau_internal_object_id__].[pcto:cnt:Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Female&quot;</value>
+                <value>%null%</value>
+                <value>0.25714285714285712</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='19' y='26' />
+          </mark-label>
+          <mark-label id='1'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Q9 - Male/Female?:nk]</field>
+                  <field>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[__tableau_internal_object_id__].[diff:cnt:Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE:qk]</field>
+                  <field>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[__tableau_internal_object_id__].[pcto:cnt:Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Male&quot;</value>
+                <value>%null%</value>
+                <value>0.74285714285714288</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='-9' y='-19' />
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{9528205E-51CC-4BBD-80D3-9438E446FCE8}' />
+    </worksheet>
+    <worksheet name='Happiness Index'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Happiness Index&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data Professional Survey (Data Professional Survey - Power BI)' name='federated.09vcrzj1xijcaw0zkc6ep0318y0w' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09vcrzj1xijcaw0zkc6ep0318y0w'>
+            <column caption='z_HappinessIndex' datatype='real' name='[Calculation_2044869717110784]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='//computes for 3 happiness questions - learnings, upward mobility, and management &#13;&#10;([Q6 - How Happy are you in your Current Position with the following? (Management)]+[Q6 - How Happy are you in your Current Position with the following? (Upward Mobility)]+[Q6 - How Happy are you in your Current Position with the following? (Learning New Things)])/3' />
+            </column>
+            <column caption='z_Age_Group' datatype='string' name='[Calculation_2688084250394624]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='//Computes per age group&#13;&#10;//&lt; 25, then Young &#13;&#10;//&lt;= 35 then Early CAreer &#13;&#10;//&lt;=50, then Mid Career &#13;&#10;// &gt;50, Senior&#13;&#10;&#13;&#10;&#13;&#10;IF [Q10 - Current Age] &lt; 25 THEN &apos;Young&apos;&#13;&#10;ELSEIF [Q10 - Current Age]&lt;= 35 THEN &apos;Early Career&apos;&#13;&#10;ELSEIF [Q10 - Current Age] &lt;=50 THEN &apos;Mid Career&apos;&#13;&#10;ELSE &apos;Senior&apos;&#13;&#10;END' />
+            </column>
+            <column caption='z_country2' datatype='string' name='[Calculation_2688084275900419]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
+              <calculation class='tableau' formula='//replace &apos;other please specify&apos; value in the Q11 column&#13;&#10;&#13;&#10;REPLACE( [Q11 - Which Country do you live in?],&quot;Other (Please Specify):&quot;, &quot;&quot;)' />
+            </column>
+            <column datatype='integer' name='[Q10 - Current Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Q11 - Which Country do you live in?]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='integer' name='[Q6 - How Happy are you in your Current Position with the following? (Learning New Things)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Q6 - How Happy are you in your Current Position with the following? (Management)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Q6 - How Happy are you in your Current Position with the following? (Upward Mobility)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Q9 - Male/Female?]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_2044869717110784]' derivation='Avg' name='[avg:Calculation_2044869717110784:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2688084250394624]' derivation='None' name='[none:Calculation_2688084250394624:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (Q9 - Male/Female?)]'>
+            <groupfilter function='level-members' level='[Q9 - Male/Female?]' user:ui-action-filter='[Action4_8639BAE5D8884BECAC1DF82B4B616260]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (z_Age_Group)]'>
+            <groupfilter function='level-members' level='[Calculation_2688084250394624]' user:ui-action-filter='[Action5_7CBEE21DBC5846E98E1BDCA9B8286E6B]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (z_country2)]'>
+            <groupfilter function='level-members' level='[Calculation_2688084275900419]' user:ui-action-filter='[Action6_3985EB8D57174476AF7D806F4D28855D]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084250394624:nk]' filter-group='3'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Calculation_2688084250394624:nk]' member='&quot;Early Career&quot;' />
+              <groupfilter function='member' level='[none:Calculation_2688084250394624:nk]' member='&quot;Senior&quot;' />
+              <groupfilter function='member' level='[none:Calculation_2688084250394624:nk]' member='&quot;Young&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084250394624:nk]</column>
+            <column>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (Q9 - Male/Female?)]</column>
+            <column>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (z_Age_Group)]</column>
+            <column>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (z_country2)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='79' />
+            <format attr='text-format' field='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[avg:Calculation_2044869717110784:qk]' value='n#,##0.00;-#,##0.00' />
+            <format attr='cell-w' value='80' />
+            <format attr='cell-h' value='40' />
+            <format attr='cell' value='20' />
+            <format attr='cell-q' value='100' />
+            <format attr='height' value='71' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[avg:Calculation_2044869717110784:qk]' value='n#,##0.00;-#,##0.00' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[avg:Calculation_2044869717110784:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontname='Segoe UI' fontsize='18'><![CDATA[<[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[avg:Calculation_2044869717110784:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='aspect' value='0' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{030814AA-231A-4E9C-B87F-A52B36CEFD87}' />
+    </worksheet>
+    <worksheet name='Total Number of Respondents '>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Total Number of Respondents</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data Professional Survey (Data Professional Survey - Power BI)' name='federated.09vcrzj1xijcaw0zkc6ep0318y0w' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09vcrzj1xijcaw0zkc6ep0318y0w'>
+            <column caption='z_Age_Group' datatype='string' name='[Calculation_2688084250394624]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='//Computes per age group&#13;&#10;//&lt; 25, then Young &#13;&#10;//&lt;= 35 then Early CAreer &#13;&#10;//&lt;=50, then Mid Career &#13;&#10;// &gt;50, Senior&#13;&#10;&#13;&#10;&#13;&#10;IF [Q10 - Current Age] &lt; 25 THEN &apos;Young&apos;&#13;&#10;ELSEIF [Q10 - Current Age]&lt;= 35 THEN &apos;Early Career&apos;&#13;&#10;ELSEIF [Q10 - Current Age] &lt;=50 THEN &apos;Mid Career&apos;&#13;&#10;ELSE &apos;Senior&apos;&#13;&#10;END' />
+            </column>
+            <column caption='z_country2' datatype='string' name='[Calculation_2688084275900419]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
+              <calculation class='tableau' formula='//replace &apos;other please specify&apos; value in the Q11 column&#13;&#10;&#13;&#10;REPLACE( [Q11 - Which Country do you live in?],&quot;Other (Please Specify):&quot;, &quot;&quot;)' />
+            </column>
+            <column datatype='integer' name='[Q10 - Current Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Q11 - Which Country do you live in?]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Q9 - Male/Female?]' role='dimension' type='nominal' />
+            <column caption='Data Professional Survey' datatype='table' name='[__tableau_internal_object_id__].[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2688084250394624]' derivation='None' name='[none:Calculation_2688084250394624:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (Q9 - Male/Female?)]'>
+            <groupfilter function='level-members' level='[Q9 - Male/Female?]' user:ui-action-filter='[Action4_8639BAE5D8884BECAC1DF82B4B616260]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (z_country2)]'>
+            <groupfilter function='level-members' level='[Calculation_2688084275900419]' user:ui-action-filter='[Action6_3985EB8D57174476AF7D806F4D28855D]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084250394624:nk]' filter-group='3'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Calculation_2688084250394624:nk]' member='&quot;Early Career&quot;' />
+              <groupfilter function='member' level='[none:Calculation_2688084250394624:nk]' member='&quot;Senior&quot;' />
+              <groupfilter function='member' level='[none:Calculation_2688084250394624:nk]' member='&quot;Young&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084250394624:nk]</column>
+            <column>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (Q9 - Male/Female?)]</column>
+            <column>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[Action (z_country2)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084250394624:nk]' value='Age Group'>
+              <formatted-text>
+                <run fontsize='12'>Age Group</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[__tableau_internal_object_id__].[cnt:Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontname='Segoe UI' fontsize='18'>&lt;</run>
+                <run bold='true' fontname='Segoe UI' fontsize='18'>[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[__tableau_internal_object_id__].[cnt:Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE:qk]</run>
+                <run bold='true' fontname='Segoe UI' fontsize='18'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{C93D2954-899A-4967-B121-A78A0D518C28}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard Demo'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Demo Dashboard&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='Data Professional Survey (Data Professional Survey - Power BI)' name='federated.09vcrzj1xijcaw0zkc6ep0318y0w' />
+      </datasources>
+      <datasource-dependencies datasource='federated.09vcrzj1xijcaw0zkc6ep0318y0w'>
+        <column caption='z_Age_Group' datatype='string' name='[Calculation_2688084250394624]' role='dimension' type='nominal'>
+          <calculation class='tableau' formula='//Computes per age group&#13;&#10;//&lt; 25, then Young &#13;&#10;//&lt;= 35 then Early CAreer &#13;&#10;//&lt;=50, then Mid Career &#13;&#10;// &gt;50, Senior&#13;&#10;&#13;&#10;&#13;&#10;IF [Q10 - Current Age] &lt; 25 THEN &apos;Young&apos;&#13;&#10;ELSEIF [Q10 - Current Age]&lt;= 35 THEN &apos;Early Career&apos;&#13;&#10;ELSEIF [Q10 - Current Age] &lt;=50 THEN &apos;Mid Career&apos;&#13;&#10;ELSE &apos;Senior&apos;&#13;&#10;END' />
+        </column>
+        <column caption='z_country2' datatype='string' name='[Calculation_2688084275900419]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
+          <calculation class='tableau' formula='//replace &apos;other please specify&apos; value in the Q11 column&#13;&#10;&#13;&#10;REPLACE( [Q11 - Which Country do you live in?],&quot;Other (Please Specify):&quot;, &quot;&quot;)' />
+        </column>
+        <column-instance column='[Calculation_2688084250394624]' derivation='None' name='[none:Calculation_2688084250394624:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Calculation_2688084275900419]' derivation='None' name='[none:Calculation_2688084275900419:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='9' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98322' id='196' param='vert' type-v2='layout-flow' w='99166' x='417' y='839'>
+            <zone h='98322' id='194' type-v2='layout-basic' w='99166' x='417' y='839'>
+              <zone h='86458' id='156' param='vert' type-v2='layout-flow' w='99166' x='417' y='12703'>
+                <zone h='86458' id='154' type-v2='layout-basic' w='99166' x='417' y='12703'>
+                  <zone h='86458' id='148' param='vert' type-v2='layout-flow' w='99166' x='417' y='12703'>
+                    <zone h='86458' id='145' param='horz' type-v2='layout-flow' w='99166' x='417' y='12703'>
+                      <zone h='86458' id='143' type-v2='layout-basic' w='99166' x='417' y='12703'>
+                        <zone h='69764' id='114' param='vert' type-v2='layout-flow' w='99166' x='417' y='12703'>
+                          <zone h='69764' id='112' type-v2='layout-basic' w='99166' x='417' y='12703'>
+                            <zone h='69764' id='88' param='horz' type-v2='layout-flow' w='99166' x='417' y='12703'>
+                              <zone h='69764' id='86' type-v2='layout-basic' w='99166' x='417' y='12703'>
+                                <zone h='20961' id='18' param='vert' type-v2='layout-flow' w='99166' x='417' y='12703'>
+                                  <zone h='20961' id='13' layout-strategy-id='distribute-evenly' param='horz' type-v2='layout-flow' w='99166' x='417' y='12703'>
+                                    <zone h='20965' id='14' name='Total Number of Respondents ' w='33073' x='417' y='12683'>
+                                      <layout-cache type-h='cell' type-w='fixed' />
+                                      <zone-style>
+                                        <format attr='border-color' value='#606b76' />
+                                        <format attr='border-style' value='solid' />
+                                        <format attr='border-width' value='1' />
+                                        <format attr='margin' value='30' />
+                                        <format attr='padding' value='0' />
+                                      </zone-style>
+                                    </zone>
+                                    <zone h='20965' id='15' name='Average Age of Respondents' w='33073' x='33490' y='12683'>
+                                      <layout-cache type-h='cell' type-w='fixed' />
+                                      <zone-style>
+                                        <format attr='border-color' value='#000000' />
+                                        <format attr='border-style' value='solid' />
+                                        <format attr='border-width' value='1' />
+                                        <format attr='margin' value='30' />
+                                      </zone-style>
+                                    </zone>
+                                    <zone h='20965' id='17' name='Happiness Index' w='33020' x='66563' y='12683'>
+                                      <layout-cache type-h='fixed' type-w='fixed' />
+                                      <zone-style>
+                                        <format attr='border-color' value='#606b76' />
+                                        <format attr='border-style' value='solid' />
+                                        <format attr='border-width' value='1' />
+                                        <format attr='margin' value='30' />
+                                      </zone-style>
+                                    </zone>
+                                  </zone>
+                                </zone>
+                                <zone h='30179' id='79' param='vert' type-v2='layout-flow' w='99166' x='417' y='52288'>
+                                  <zone h='30176' id='80' layout-strategy-id='distribute-evenly' param='horz' type-v2='layout-flow' w='99166' x='417' y='52288'>
+                                    <zone h='30189' id='78' name='Gender' show-title='false' w='33073' x='417' y='52306'>
+                                      <layout-cache cell-count-h='1' type-h='cell' type-w='fixed' />
+                                      <zone-style>
+                                        <format attr='border-color' value='#000000' />
+                                        <format attr='border-style' value='none' />
+                                        <format attr='border-width' value='0' />
+                                        <format attr='margin' value='20' />
+                                      </zone-style>
+                                    </zone>
+                                    <zone h='30189' id='83' name='Age Group' show-title='false' w='33073' x='33490' y='52306'>
+                                      <layout-cache cell-count-h='4' non-cell-size-h='20' type-h='cell' type-w='fixed' />
+                                      <zone-style>
+                                        <format attr='border-color' value='#000000' />
+                                        <format attr='border-style' value='none' />
+                                        <format attr='border-width' value='0' />
+                                        <format attr='margin' value='4' />
+                                      </zone-style>
+                                    </zone>
+                                    <zone h='30189' id='85' name='Country' show-title='false' w='33020' x='66563' y='52306'>
+                                      <layout-cache minheight='201' minwidth='202' type-h='scalable' type-w='scalable' />
+                                      <zone-style>
+                                        <format attr='border-color' value='#000000' />
+                                        <format attr='border-style' value='none' />
+                                        <format attr='border-width' value='0' />
+                                        <format attr='margin' value='30' />
+                                        <format attr='margin-top' value='10' />
+                                        <format attr='margin-right' value='20' />
+                                        <format attr='margin-bottom' value='20' />
+                                        <format attr='margin-left' value='20' />
+                                      </zone-style>
+                                    </zone>
+                                  </zone>
+                                </zone>
+                                <zone h='18624' id='110' param='vert' type-v2='layout-flow' w='99166' x='417' y='33664'>
+                                  <zone fixed-size='186' h='18624' id='111' is-fixed='true' param='horz' type-v2='layout-flow' w='99166' x='417' y='33664'>
+                                    <zone fixed-size='532' forceUpdate='true' h='18624' id='115' is-fixed='true' type-v2='text' w='28750' x='417' y='33664'>
+                                      <formatted-text>
+                                        <run bold='true' fontcolor='#4e79a7' fontname='Segoe UI' fontsize='15'>Who&apos;s switching careers?</run>
+                                        <run fontcolor='#4e79a7' fontname='Segoe UI' fontsize='15'>Æ </run>
+                                        <run>Æ&#10;&#10;</run>
+                                        <run fontcolor='#000000' fontname='Segoe UI' fontsize='10'>Gender distribution of respondents. A skew signals representation gaps; a balanced split suggests broader inclusivity.</run>
+                                      </formatted-text>
+                                      <zone-style>
+                                        <format attr='border-color' value='#000000' />
+                                        <format attr='border-style' value='none' />
+                                        <format attr='border-width' value='0' />
+                                        <format attr='margin' value='30' />
+                                        <format attr='margin-top' value='20' />
+                                        <format attr='margin-right' value='20' />
+                                        <format attr='margin-bottom' value='20' />
+                                        <format attr='margin-left' value='0' />
+                                      </zone-style>
+                                    </zone>
+                                    <zone fixed-size='532' forceUpdate='true' h='18624' id='117' is-fixed='true' type-v2='text' w='28750' x='29167' y='33664'>
+                                      <formatted-text>
+                                        <run bold='true' fontcolor='#4e79a7' fontname='Segoe UI' fontsize='15'>Happiness Across Age Groups</run>
+                                        <run fontcolor='#000000' fontname='Segoe UI'>Æ </run>
+                                        <run>Æ&#10;&#10;</run>
+                                        <run fontcolor='#000000' fontname='Segoe UI'>This chart compares average job satisfaction scores across age groups. </run>
+                                        <run>Æ&#10;</run>
+                                        <run fontcolor='#000000' fontname='Segoe UI'>It helps us see whether younger professionals feel differently about</run>
+                                        <run>Æ&#10;</run>
+                                        <run fontcolor='#000000' fontname='Segoe UI'> their careers than older, more experienced ones.</run>
+                                      </formatted-text>
+                                      <zone-style>
+                                        <format attr='border-color' value='#000000' />
+                                        <format attr='border-style' value='none' />
+                                        <format attr='border-width' value='0' />
+                                        <format attr='margin' value='28' />
+                                        <format attr='margin-top' value='20' />
+                                        <format attr='margin-right' value='20' />
+                                        <format attr='margin-bottom' value='20' />
+                                        <format attr='margin-left' value='0' />
+                                      </zone-style>
+                                    </zone>
+                                    <zone forceUpdate='true' h='18624' id='116' type-v2='text' w='41666' x='57917' y='33664'>
+                                      <formatted-text>
+                                        <run bold='true' fontcolor='#4e79a7' fontname='Segoe UI' fontsize='15'>How Happiness varies by Country </run>
+                                        <run>Æ&#10;&#10;</run>
+                                        <run fontcolor='#000000' fontname='Segoe UI'>This visualization compares job satisfaction across countries. While sample sizes may vary, it highlights how cultural and workplace contexts influence happiness.</run>
+                                        <run>Æ&#10;</run>
+                                      </formatted-text>
+                                      <zone-style>
+                                        <format attr='border-color' value='#000000' />
+                                        <format attr='border-style' value='none' />
+                                        <format attr='border-width' value='0' />
+                                        <format attr='margin' value='30' />
+                                        <format attr='margin-top' value='20' />
+                                        <format attr='margin-right' value='20' />
+                                        <format attr='margin-bottom' value='20' />
+                                        <format attr='margin-left' value='0' />
+                                      </zone-style>
+                                    </zone>
+                                  </zone>
+                                </zone>
+                              </zone>
+                            </zone>
+                          </zone>
+                        </zone>
+                        <zone h='16694' id='123' param='vert' type-v2='layout-flow' w='99166' x='417' y='82467'>
+                          <zone fixed-size='125' h='13103' id='124' is-fixed='true' param='horz' type-v2='layout-flow' w='99166' x='417' y='82467'>
+                            <zone fixed-size='1435' forceUpdate='true' h='13103' id='135' is-fixed='true' type-v2='text' w='75157' x='417' y='82467'>
+                              <formatted-text>
+                                <run bold='true' fontcolor='#4e79a7' fontname='Segoe UI' fontsize='15'>Conclusion/Recommendation</run>
+                                <run lmargin='600' rmargin='600'>Æ&#10;</run>
+                                <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10' lmargin='600' rmargin='600'>Organizations should focus on supporting diverse entry pathways, especially career switchers, while tailoring retention strategies by age group and region. Pay and work-life balance remain universal priorities—but what drives happiness differs across demographics. </run>
+                              </formatted-text>
+                              <zone-style>
+                                <format attr='border-color' value='#000000' />
+                                <format attr='border-style' value='none' />
+                                <format attr='border-width' value='0' />
+                                <format attr='margin' value='4' />
+                              </zone-style>
+                            </zone>
+                            <zone fixed-size='142' h='13103' id='136' is-centered='0' is-fixed='true' is-scaled='1' param='Image/image (20).png' type-v2='bitmap' w='7604' x='75574' y='82467'>
+                              <zone-style>
+                                <format attr='border-color' value='#000000' />
+                                <format attr='border-style' value='none' />
+                                <format attr='border-width' value='0' />
+                                <format attr='margin' value='4' />
+                                <format attr='margin-top' value='8' />
+                                <format attr='margin-left' value='0' />
+                              </zone-style>
+                            </zone>
+                          </zone>
+                        </zone>
+                      </zone>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='11864' id='162' param='vert' type-v2='layout-flow' w='99166' x='417' y='839'>
+                <zone fixed-size='362' h='11864' id='163' is-fixed='true' param='horz' type-v2='layout-flow' w='99166' x='417' y='839'>
+                  <zone h='11864' id='164' param='horz' type-v2='layout-flow' w='99166' x='417' y='839'>
+                    <zone forceUpdate='true' h='11864' id='165' type-v2='text' w='59634' x='417' y='839'>
+                      <formatted-text>
+                        <run bold='true' fontcolor='#4e79a7' fontname='Segoe UI' fontsize='18'>Data Professionals at a Glance</run>
+                        <run lmargin='600' rmargin='600'>Æ&#10;</run>
+                        <run fontcolor='#000000' fontname='Segoe UI' fontsize='14' lmargin='600' rmargin='600'>Source: Data Professional Survey</run>
+                      </formatted-text>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone fixed-size='269' h='11864' id='146' is-fixed='true' mode='checkdropdown' name='Total Number of Respondents ' param='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084250394624:nk]' type-v2='filter' values='database' w='14427' x='60051' y='839'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone fixed-size='474' h='11864' id='152' is-fixed='true' mode='dropdown' name='Country' param='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084275900419:nk]' type-v2='filter' values='database' w='25105' x='74478' y='839'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run>Demo Dashboard&#10;</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1600' minheight='1600' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='214' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98120' id='213' param='vert' type-v2='layout-flow' w='99034' x='483' y='940'>
+                <zone forceUpdate='true' h='11843' id='165' type-v2='text' w='53228' x='483' y='940'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#4e79a7' fontname='Segoe UI' fontsize='18'>Data Professionals at a Glance</run>
+                    <run lmargin='600' rmargin='600'>Æ&#10;</run>
+                    <run fontcolor='#000000' fontname='Segoe UI' fontsize='14' lmargin='600' rmargin='600'>Source: Data Professional Survey</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='269' h='11843' id='146' mode='checkdropdown' name='Total Number of Respondents ' param='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084250394624:nk]' type-v2='filter' values='database' w='16717' x='53711' y='940'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='106' h='20917' id='14' is-fixed='true' name='Total Number of Respondents ' w='33011' x='483' y='12808'>
+                  <layout-cache type-h='cell' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#606b76' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='106' h='20917' id='15' is-fixed='true' name='Average Age of Respondents' w='33012' x='33494' y='12808'>
+                  <layout-cache type-h='cell' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='106' h='20917' id='17' is-fixed='true' name='Happiness Index' w='33011' x='66506' y='12808'>
+                  <layout-cache type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#606b76' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='532' forceUpdate='true' h='18585' id='115' type-v2='text' w='33313' x='483' y='33704'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#4e79a7' fontname='Segoe UI' fontsize='15'>Who&apos;s switching careers?</run>
+                    <run fontcolor='#4e79a7' fontname='Segoe UI' fontsize='15'>Æ </run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontcolor='#000000' fontname='Segoe UI' fontsize='10'>Gender distribution of respondents. A skew signals representation gaps; a balanced split suggests broader inclusivity.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='532' forceUpdate='true' h='18585' id='117' type-v2='text' w='33313' x='33796' y='33704'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#4e79a7' fontname='Segoe UI' fontsize='15'>Happiness Across Age Groups</run>
+                    <run fontcolor='#000000' fontname='Segoe UI'>Æ </run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontcolor='#000000' fontname='Segoe UI'>This chart compares average job satisfaction scores across age groups. </run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#000000' fontname='Segoe UI'>It helps us see whether younger professionals feel differently about</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#000000' fontname='Segoe UI'> their careers than older, more experienced ones.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='18585' id='116' type-v2='text' w='32408' x='67109' y='33704'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#4e79a7' fontname='Segoe UI' fontsize='15'>How Happiness varies by Country </run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontcolor='#000000' fontname='Segoe UI'>This visualization compares job satisfaction across countries. While sample sizes may vary, it highlights how cultural and workplace contexts influence happiness.</run>
+                    <run>Æ&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='201' h='30083' id='78' is-fixed='true' name='Gender' show-title='false' w='33011' x='483' y='52291'>
+                  <layout-cache type-h='cell' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='233' h='30083' id='83' is-fixed='true' name='Age Group' show-title='false' w='33012' x='33494' y='52291'>
+                  <layout-cache type-h='cell' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='474' h='11843' id='152' mode='dropdown' name='Country' param='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Calculation_2688084275900419:nk]' type-v2='filter' values='database' w='29089' x='70428' y='940'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='211' h='30083' id='85' is-fixed='true' name='Country' show-title='false' w='33011' x='66506' y='52291'>
+                  <layout-cache minheight='201' minwidth='202' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='1435' forceUpdate='true' h='14689' id='135' type-v2='text' w='87085' x='483' y='82403'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#4e79a7' fontname='Segoe UI' fontsize='15'>Conclusion/Recommendation</run>
+                    <run lmargin='600' rmargin='600'>Æ&#10;</run>
+                    <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10' lmargin='600' rmargin='600'>Organizations should focus on supporting diverse entry pathways, especially career switchers, while tailoring retention strategies by age group and region. Pay and work-life balance remain universal priorities—but what drives happiness differs across demographics. </run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='106' h='14689' id='136' is-centered='0' is-fixed='true' is-scaled='1' param='Image/image (20).png' type-v2='bitmap' w='8811' x='87568' y='82403'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{AD20D9D3-C8FA-4B9A-82EB-6B108B1DD3DC}' />
+    </dashboard>
+  </dashboards>
+  <windows pres-mode='true' source-height='37'>
+    <window class='worksheet' name='Total Number of Respondents '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8C52050E-64BF-42BE-9E07-041D612763C3}' />
+    </window>
+    <window class='worksheet' name='Average Age of Respondents'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F6F70FE6-5866-41EA-91A9-43E67A40D4EF}' />
+    </window>
+    <window class='worksheet' name='Happiness Index'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{441790DE-7C17-42CC-B04A-D9D71B4D93AB}' />
+    </window>
+    <window class='worksheet' name='Gender'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[none:Q9 - Male/Female?:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[__tableau_internal_object_id__].[diff:cnt:Data Professional Survey_E8522B0710CD4C99A0FCC6C0FFEF3CFE:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AA285554-41B9-4FCB-BC3C-C43E0345E5A2}' />
+    </window>
+    <window class='worksheet' name='Age Group'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='34'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[avg:Calculation_2044869717110784:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CE480D3D-8B0B-42D8-BF17-E72BB8A6636C}' />
+    </window>
+    <window class='worksheet' name='Country'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.09vcrzj1xijcaw0zkc6ep0318y0w].[avg:Calculation_2044869717110784:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D7AE1AC5-1347-450F-812C-BFEE75612313}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard Demo'>
+      <viewpoints>
+        <viewpoint name='Age Group'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Average Age of Respondents'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Country'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Gender'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Happiness Index'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Total Number of Respondents '>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='146' />
+      <simple-id uuid='{F4AF904E-9944-4F24-968A-B51DFC47D6BC}' />
+    </window>
+  </windows>
+</workbook>
