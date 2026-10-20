@@ -25,6 +25,7 @@ Understanding talent retention, workplace expectations, and career entry pathway
 2. **Geographic Distribution:** Identifying regional happiness trends through geographic mapping.
 3. **Career Switchers:** Analyzing demographic representations among professionals transitioning into data roles.
 
+---
 
 ## 🧰 Tools and Technologies
 
@@ -35,6 +36,8 @@ Understanding talent retention, workplace expectations, and career entry pathway
 - Geographic Data Visualization
 - Dashboard Design and Layout
 - Interactive Filters and Dashboard Actions
+
+---
 
 ### 🛠️ Key Skills Demonstrated
 
